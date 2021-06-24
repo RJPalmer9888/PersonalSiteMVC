@@ -25,11 +25,11 @@
                 <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                <ul class="menu navbar-nav ms-auto py-4 py-lg-0">
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("Index", "Home")">Home</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("About", "Home")">Resume</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("Post", "Home")">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("Links", "Home")">Additional Links</a></li>
+                    <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("Links", "Home")">Classmates</a></li>
                     <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="@Url.Action("Contact", "Home")">Contact Me</a></li>
                 </ul>
             </div>
@@ -57,23 +57,15 @@
                 <div class="col-md-10 col-lg-8 col-xl-7">
                     <ul class="list-inline text-center">
                         <li class="list-inline-item">
-                            <a href="#!">
+                            <a href="https://www.linkedin.com/in/rjpalmer98/" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+                                    <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
                                 </span>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fas fa-circle fa-stack-2x"></i>
-                                    <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                                </span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!">
+                            <a href="https://github.com/RJPalmer9888" target="_blank">
                                 <span class="fa-stack fa-lg">
                                     <i class="fas fa-circle fa-stack-2x"></i>
                                     <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -90,6 +82,16 @@
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", false)
 
+    <script>
+        //  Use the selector values found (or declared) in your style sheet for the active class – for the code below your stylesheet would look like: .mainmenu ul li.selected a {//code}
+        $('.menu li').each(function () {
+            //  In this example the class is attached to the li, so you must go one level further to //check the href value of the anchor tag and ensure it matches what is found in the browser URL
+            if ($(this).find('a').attr('href') == window.location.pathname) {
+                //  If they match add the correct class name. $(this) refers to the li (the last item in the DOM specified before the each function)
+                $(this).addClass('active');
+            }
+        });
+    </script>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->

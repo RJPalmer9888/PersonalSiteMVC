@@ -194,6 +194,11 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\2956131.png" />
     <Content Include="img\about-bg.jpg" />
+    <Content Include="img\ClassMates\headshot.jpg" />
+    <Content Include="img\ClassMates\Jake.jpg" />
+    <Content Include="img\ClassMates\Profile_Picture.png" />
+    <Content Include="img\ClassMates\WIN_20210602_19_04_18_Pro %282%29.jpg" />
+    <Content Include="img\coming-soon-construction-yellow-background-design_1017-25509.jpg" />
     <Content Include="img\contact-bg.jpg" />
     <Content Include="img\DSC_0039_01.jpg" />
     <Content Include="img\Facebook Post 940x788 px.png" />
