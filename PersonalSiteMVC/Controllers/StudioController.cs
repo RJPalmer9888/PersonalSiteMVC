@@ -13,5 +13,22 @@ namespace PersonalSiteMVC.Controllers
         {
             return View();
         }
+
+        public ActionResult Classes()
+        {
+            return View();
+        }
+
+        public ActionResult Team()
+        {
+            return View();
+        }
+
+        public ActionResult Contact()
+        {
+            return View();
+        }
+
+
     }
 }

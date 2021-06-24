@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CCC Contact</title>
+    <link href="CSS/custom.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" />
+</head>
+<body>
+
+    <header>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="Images/facebook.png" width="40" /></a>
+            </div>
+            <div class="column">
+                <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="Images/twitter.png" width="40" /></a>
+            </div>
+            <div class="column">
+                <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="Images/linkedin.png" width="40" /></a>
+            </div>
+        </div>
+        <sidebar>
+            <a href="index.html"><img src="Images/830294403417e58eed5e566210ed8990.jpg" id="logo" /></a>
+        </sidebar>
+        <article>
+            <h1> Crucible Crash Course</h1>
+            <p id="slogan"> Improving today at the cost of tomorrow. </p>
+        </article>
+
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="Classes.html">Browse Courses</a>
+            </li>
+            <li>
+                <a href="Team.html">Meet the Team</a>
+            </li>
+            <li>
+                <a href="Contact.html" class="selected">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <article class="top">
+        <h1 id="title"> Reach Out! </h1>
+        <p> We'd love to hear from you, whether it's enrolling in a class or giving feedback! </p>
+    </article>
+    <main>
+        <!--<div>
+            <h2> Contact Us </h2>
+            <dl>
+                <dt> Phone Number </dt>
+                <dd> <a href="tel:+018168575309">816-857-5309</a> </dd>
+            </dl>
+            <dl>
+                <dt> Email </dt>
+                <dd> <a href="mailto:learning@smallbiz.com">learning@smallbiz.com</a> </dd>
+            </dl>
+            <dl>
+                <dt> Address </dt>
+                <dd> 1740 W 92nd Street <br /> Kansas City, MO 64114 </dd>
+            </dl>
+            <dl>
+                <dt> Twitter </dt>
+                <dd> <a href="https://www.facebook.com/learnwithus" target="_blank">@learnwithus</a> </dd>
+            </dl>
+            <dl>
+                <dt> Facebook </dt>
+                <dd> <a href="https://www.facebook.com/learnwithus" target="_blank">facebook.com/learnwithus</a> </dd>
+            </dl>
+            <dl>
+                <dt> LinkedIn </dt>
+                <dd> <a href="https://www.linkedin.com/learnwithus" target="_blank">linkedin.com/learnwithus</a> </dd>
+            </dl>
+        </div>-->
+        <form action="#" method="get" onsubmit="validateForm(event)">
+            <div class="col-sm-offset-2 col-sm-8">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" id="tbName" name="phone" class="form-control" placeholder="Phone" />
+                        <span id="rfvPhone" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                        <span id="rfvEmail" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="text" id="tbSubject" name="address" class="form-control" placeholder="Address" />
+                        <span id="rfvAddress" class="invalid"></span>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="form-group">
+                        <input type="submit" class="btn btn-success" value="Send Message" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <section>
+            &copy; 2021 Ryan Palmer
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="Images/facebook.png" width="40" /></a>
+                </div>
+                <div class="column">
+                    <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="Images/twitter.png" width="40" /></a>
+                </div>
+                <div class="column">
+                    <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="Images/linkedin.png" width="40" /></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Scripts -->
+    <script src="js/validation.js"></script>
+</body>
+</html>

@@ -1,0 +1,179 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crucible Crash Course</title>
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="~/favicon-32x32Studio.png" />
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="~/Img/Images/facebook.png" width="40" /></a>
+            </div>
+            <div class="column">
+                <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="~/Img/Images/twitter.png" width="40" /></a>
+            </div>
+            <div class="column">
+                <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="~/Img/Images/linkedin.png" width="40" /></a>
+            </div>
+        </div>
+        <sidebar>
+            <a href="@Url.Action("Index", "Studio")"><img src="~/Img/Images/830294403417e58eed5e566210ed8990.jpg" id="logo" /></a>
+            <a href="@Url.Action("Index", "Home")"><img src="~/Img/LogoMakr-5RyQkg.png" id="logo" /></a>
+        </sidebar>
+        <article>
+            <h1> Crucible Crash Course</h1>
+            <p id="slogan"> Improving today at the cost of tomorrow. </p>
+        </article>
+
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="@Url.Action("Index", "Studio")">Home</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Classes", "Studio")">Browse Courses</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Team", "Studio") class="selected"">Meet the Team</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Contact", "Studio")">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <article class="top">
+        <h1 id="title"> Meet the Team </h1>
+        <p> At the Crucible Crash Course, our team of Veteran players are here to provide professional teachings to improve your gameplay. </p>
+    </article>
+    <main>
+        <h2> Our Staff </h2>
+        <article class="team">
+            <h3>Instructors</h3>
+            <sidebar class="department">
+                <h3>By Department</h3>
+                <ul>
+                    <li>Leadership</li>
+                    <li>Sales</li>
+                    <li>Administration</li>
+                    <li>Instructors</li>
+                </ul>
+            </sidebar>
+
+            <sidebar class="left">
+                <img class="team img-responsive thumb" src="~/Img/Images/pointy.jpg" width="190" />
+            </sidebar>
+            <section class="textpicright">
+                <section class="namequote">
+                    <h4 class="name"> Scott "Hawk' Sawyer </h4>
+                    <p class="quote">
+                        "Pyrrhic victories are still victories
+                        "
+                    </p>
+                </section>
+
+                <p>
+                    Here at the CCC, we don't believe in luck. Only sweat and unbalanced gameplay. It's our sworn duty to give you the knowledge to abuse these tools to your benefit. Dignity not included.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id felis et elit porttitor vestibulum non nec lectus. Nam quis auctor est. Proin pretium justo non neque rhoncus tempor. Nam nec augue nulla. Nunc venenatis mi ut magna bibendum, sit amet eleifend purus malesuada. Proin scelerisque, mi non mattis porttitor, magna ligula luctus tellus, vel consequat neque enim at nisl. Etiam et enim eget velit egestas fermentum. Duis tincidunt tortor sit amet auctor euismod. Vivamus odio neque, sagittis quis aliquet vel, facilisis vel odio. Cras tempor eleifend porttitor.
+                </p>
+                <p>
+                    Aenean justo elit, pretium sit amet dapibus et, mattis non augue. Nam pellentesque aliquam justo eu malesuada. Nullam at diam odio. Integer convallis, sapien eu varius dictum, sem odio dignissim urna, vel rhoncus enim sapien id tortor. Aenean consequat mattis mi eget posuere. Integer cursus convallis scelerisque. Proin rhoncus augue nec libero sodales, tincidunt eleifend elit luctus.
+                </p>
+            </section>
+        </article>
+        <article class="team">
+            <sidebar class="left">
+                <img class="team img-responsive thumb" src="~/Img/Images/waveydead.jpg" width="340" />
+            </sidebar>
+            <section class="textpicright">
+                <h4 class="name"> Zach "Ziggy" Morris </h4>
+                <p class="quote"> "Dude can my internet please not go ou-" </p>
+                <p>
+                    Here at the CCC, we don't believe in luck. Only sweat and unbalanced gameplay. It's our sworn duty to give you the knowledge to abuse these tools to your benefit. Dignity not included.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id felis et elit porttitor vestibulum non nec lectus. Nam quis auctor est. Proin pretium justo non neque rhoncus tempor. Nam nec augue nulla. Nunc venenatis mi ut magna bibendum, sit amet eleifend purus malesuada. Proin scelerisque, mi non mattis porttitor, magna ligula luctus tellus, vel consequat neque enim at nisl. Etiam et enim eget velit egestas fermentum. Duis tincidunt tortor sit amet auctor euismod. Vivamus odio neque, sagittis quis aliquet vel, facilisis vel odio. Cras tempor eleifend porttitor.
+                </p>
+                <p>
+                    Aenean justo elit, pretium sit amet dapibus et, mattis non augue. Nam pellentesque aliquam justo eu malesuada. Nullam at diam odio. Integer convallis, sapien eu varius dictum, sem odio dignissim urna, vel rhoncus enim sapien id tortor. Aenean consequat mattis mi eget posuere. Integer cursus convallis scelerisque. Proin rhoncus augue nec libero sodales, tincidunt eleifend elit luctus.
+                </p>
+            </section>
+        </article>
+        <article class="team">
+            <sidebar class="left">
+                <img class="team img-responsive thumb" src="~/Img/Images/2thumbs.jpg" width="320" />
+            </sidebar>
+            <section class="textpicright">
+                <h4 class="name"> Jake "Fry" Fry </h4>
+                <p class="quote"> "Yeah alright" </p>
+                <p>
+                    Here at the CCC, we don't believe in luck. Only sweat and unbalanced gameplay. It's our sworn duty to give you the knowledge to abuse these tools to your benefit. Dignity not included.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id felis et elit porttitor vestibulum non nec lectus. Nam quis auctor est. Proin pretium justo non neque rhoncus tempor. Nam nec augue nulla. Nunc venenatis mi ut magna bibendum, sit amet eleifend purus malesuada. Proin scelerisque, mi non mattis porttitor, magna ligula luctus tellus, vel consequat neque enim at nisl. Etiam et enim eget velit egestas fermentum. Duis tincidunt tortor sit amet auctor euismod. Vivamus odio neque, sagittis quis aliquet vel, facilisis vel odio. Cras tempor eleifend porttitor.
+                </p>
+                <p>
+                    Aenean justo elit, pretium sit amet dapibus et, mattis non augue. Nam pellentesque aliquam justo eu malesuada. Nullam at diam odio. Integer convallis, sapien eu varius dictum, sem odio dignissim urna, vel rhoncus enim sapien id tortor. Aenean consequat mattis mi eget posuere. Integer cursus convallis scelerisque. Proin rhoncus augue nec libero sodales, tincidunt eleifend elit luctus.
+                </p>
+            </section>
+        </article>
+        <article class="team">
+            <sidebar class="left">
+                <img class="team img-responsive thumb" src="~/Img/Images/shush.jpg" width="180" />
+            </sidebar>
+            <section class="textpicright">
+                <h4 class="name"> Casey "Ginger" Roe </h4>
+                <p class="quote"> "I don't even play Destiny anymore" </p>
+                <p>
+                    Here at the CCC, we don't believe in luck. Only sweat and unbalanced gameplay. It's our sworn duty to give you the knowledge to abuse these tools to your benefit. Dignity not included.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque id felis et elit porttitor vestibulum non nec lectus. Nam quis auctor est. Proin pretium justo non neque rhoncus tempor. Nam nec augue nulla. Nunc venenatis mi ut magna bibendum, sit amet eleifend purus malesuada. Proin scelerisque, mi non mattis porttitor, magna ligula luctus tellus, vel consequat neque enim at nisl. Etiam et enim eget velit egestas fermentum. Duis tincidunt tortor sit amet auctor euismod. Vivamus odio neque, sagittis quis aliquet vel, facilisis vel odio. Cras tempor eleifend porttitor.
+                </p>
+                <p>
+                    Aenean justo elit, pretium sit amet dapibus et, mattis non augue. Nam pellentesque aliquam justo eu malesuada. Nullam at diam odio. Integer convallis, sapien eu varius dictum, sem odio dignissim urna, vel rhoncus enim sapien id tortor. Aenean consequat mattis mi eget posuere. Integer cursus convallis scelerisque. Proin rhoncus augue nec libero sodales, tincidunt eleifend elit luctus.
+                </p>
+            </section>
+        </article>
+    </main>
+    <div id="lightbox-container">
+        <p>
+            Click anywhere to close
+        </p>
+        <div id="lightbox-content">
+
+        </div>
+    </div>
+    <footer>
+        <section>
+            &copy; 2021 Ryan Palmer
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="~/Img/Images/facebook.png" width="40" /></a>
+                </div>
+                <div class="column">
+                    <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="~/Img/Images/twitter.png" width="40" /></a>
+                </div>
+                <div class="column">
+                    <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="~/Img/Images/linkedin.png" width="40" /></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/jquerycode.js"></script>
+    <script src="~/Scripts/jquery.js"></script>
+</body>
+</html>

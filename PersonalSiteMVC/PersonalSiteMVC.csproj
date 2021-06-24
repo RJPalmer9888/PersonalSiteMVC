@@ -190,6 +190,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\custom.css" />
     <Content Include="Content\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -206,6 +207,23 @@
     <Content Include="img\DSC_0039_01.jpg" />
     <Content Include="img\Facebook Post 940x788 px.png" />
     <Content Include="img\home-bg.jpg" />
+    <Content Include="img\Images\2thumbs.jpg" />
+    <Content Include="img\Images\830294403417e58eed5e566210ed8990.jpg" />
+    <Content Include="img\Images\classesbig.jpg" />
+    <Content Include="img\Images\facebook.png" />
+    <Content Include="img\Images\guns.jpg" />
+    <Content Include="img\Images\img1.png" />
+    <Content Include="img\Images\linkedin.png" />
+    <Content Include="img\Images\pointy.jpg" />
+    <Content Include="img\Images\shotguns.jpg" />
+    <Content Include="img\Images\shush.jpg" />
+    <Content Include="img\Images\singletitan.jpg" />
+    <Content Include="img\Images\stancebg.jpg" />
+    <Content Include="img\Images\stasis.jpg" />
+    <Content Include="img\Images\teamplay.jpg" />
+    <Content Include="img\Images\twitter.png" />
+    <Content Include="img\Images\victory.jpg" />
+    <Content Include="img\Images\waveydead.jpg" />
     <Content Include="img\LifeRPG_Avatar %281%29.png" />
     <Content Include="img\LifeRPG_Avatar %282%29.png" />
     <Content Include="img\LogoMakr-5RyQkg.png" />
@@ -216,7 +234,36 @@
     <Content Include="img\Zc5LnOoHtCn9c4u-le2Hpdbxmn4pQhs7z24G6rrBa9I.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\scripts.js" />
+    <Content Include="Scripts\validation.js" />
+    <Content Include="_Archive\Studio\Classes.html" />
+    <Content Include="_Archive\Studio\Contact.html" />
+    <Content Include="_Archive\Studio\CSS\custom.css" />
+    <Content Include="favicon-32x32Studio.png" />
+    <Content Include="_Archive\Studio\favicon-32x32.png" />
+    <Content Include="_Archive\Studio\favicon.ico" />
+    <Content Include="_Archive\Studio\Images\2thumbs.jpg" />
+    <Content Include="_Archive\Studio\Images\830294403417e58eed5e566210ed8990.jpg" />
+    <Content Include="_Archive\Studio\Images\classesbig.jpg" />
+    <Content Include="_Archive\Studio\Images\facebook.png" />
+    <Content Include="_Archive\Studio\Images\guns.jpg" />
+    <Content Include="_Archive\Studio\Images\img1.png" />
+    <Content Include="_Archive\Studio\Images\linkedin.png" />
+    <Content Include="_Archive\Studio\Images\pointy.jpg" />
+    <Content Include="_Archive\Studio\Images\shotguns.jpg" />
+    <Content Include="_Archive\Studio\Images\shush.jpg" />
+    <Content Include="_Archive\Studio\Images\singletitan.jpg" />
+    <Content Include="_Archive\Studio\Images\stancebg.jpg" />
+    <Content Include="_Archive\Studio\Images\stasis.jpg" />
+    <Content Include="_Archive\Studio\Images\teamplay.jpg" />
+    <Content Include="_Archive\Studio\Images\twitter.png" />
+    <Content Include="_Archive\Studio\Images\victory.jpg" />
+    <Content Include="_Archive\Studio\Images\waveydead.jpg" />
+    <Content Include="_Archive\Studio\index.html" />
+    <Content Include="_Archive\Studio\JS\jquery.js" />
+    <Content Include="_Archive\Studio\JS\validation.js" />
+    <Content Include="_Archive\Studio\Team.html" />
     <Content Include="_Archive\Template\about.html" />
     <Content Include="_Archive\Template\assets\favicon.ico" />
     <Content Include="_Archive\Template\assets\img\2956131.png" />
@@ -305,10 +352,13 @@
     <Content Include="Views\Home\Links.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\EmailConfirmation.cshtml" />
+    <Content Include="Views\Studio\Index.cshtml" />
+    <Content Include="Views\Studio\Classes.cshtml" />
+    <Content Include="Views\Studio\Team.cshtml" />
+    <Content Include="Views\Studio\Contact.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Studio\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

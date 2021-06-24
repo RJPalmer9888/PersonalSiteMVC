@@ -1,0 +1,307 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Crucible Crash Course</title>
+    <link href="~/Content/custom.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="~/favicon-32x32Studio.png" />
+</head>
+<body>
+    <header>
+        <div class="row">
+            <div class="column">
+                <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="~/Img/Images/facebook.png" width="40" /></a>
+            </div>
+            <div class="column">
+                <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="~/Img/Images/twitter.png" width="40" /></a>
+            </div>
+            <div class="column">
+                <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="~/Img/Images/linkedin.png" width="40" /></a>
+            </div>
+        </div>
+        <sidebar>
+            <a href="@Url.Action("Index", "Studio")"><img src="~/Img/Images/830294403417e58eed5e566210ed8990.jpg" id="logo" /></a>
+            <a href="@Url.Action("Index", "Home")"><img src="~/Img/LogoMakr-5RyQkg.png" id="logo" /></a>
+        </sidebar>
+        <article>
+            <h1> Crucible Crash Course</h1>
+            <p id="slogan"> Improving today at the cost of tomorrow. </p>
+        </article>
+
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a href="@Url.Action("Index", "Studio")">Home</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Classes", "Studio")" class="selected">Browse Courses</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Team", "Studio")">Meet the Team</a>
+            </li>
+            <li>
+                <a href="@Url.Action("Contact", "Studio")">Contact Us</a>
+            </li>
+        </ul>
+    </nav>
+    <article class="top">
+        <h1 id="title"> Courses and Classes </h1>
+        <p> We have a wide selection of classes to further your Crucible experience. </p>
+    </article>
+    <main>
+        <h2> Our Classes </h2>
+        <!-- Additional classes to be added and scheduled -->
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="~/Img/Images/teamplay.jpg" alt="Teamplay" class="classpic">
+                    <div class="container">
+                        <h4><b>Teamplay</b></h4>
+                        <p>Intro to Teamwork</p>
+                        <p>Build Synergy</p>
+                        <p>Building a Playbook</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="~/Img/Images/classesbig.jpg" alt="Intro to Guardian" class="classpic" height="214">
+                    <div class="container">
+                        <h4><b>Intro to Guardian</b></h4>
+                        <p>Titan 101</p>
+                        <p>Warlock 101 </p>
+                        <p>Hunter 101 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="~/Img/Images/guns.jpg" alt="guns" class="classpic">
+                    <div class="container">
+                        <h4><b>Weapons</b></h4>
+                        <p>Weapon Archetypes</p>
+                        <p>Archetype Roles</p>
+                        <p>Playing Off Meta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="card">
+                    <img src="~/Img/Images/stasis.jpg" alt="Stasis" class="classpic">
+                    <div class="container">
+                        <h4><b>Stasis</b></h4>
+                        <p>Slowing, Freezing, and Shattering</p>
+                        <p>Map Control</p>
+                        <p>Counterplay</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="~/Img/Images/shotguns.jpg" alt="Shotguns" class="classpic">
+                    <div class="container">
+                        <h4><b>Shotguns</b></h4>
+                        <p>Walking Forward</p>
+                        <p>Right Clicking</p>
+                        <p>Left Clicking</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="~/Img/Images/victory.jpg" alt="Victory" class="classpic" height="214">
+                    <div class="container">
+                        <h4><b>Winning the Game</b></h4>
+                        <p>Stasis 400</p>
+                        <p>Shotguns 400</p>
+                        <p>Hunter 400</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <table id="simpleTable">
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Class</th>
+                    <th>Instructor</th>
+                    <th>Meets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Teamplay</td>
+                    <td>Intro to Teamwork</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 8am-10am</td>
+                </tr>
+                <tr>
+                    <td>Teamplay</td>
+                    <td>Build Synergy</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 10:30am-12:30pm</td>
+                </tr>
+                <tr>
+                    <td>Teamplay</td>
+                    <td>Building a Playbook</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 1pm-3pm</td>
+                </tr>
+                <tr>
+                    <td>Intro to Guardian</td>
+                    <td>Titan 101</td>
+                    <td>Zach Morris</td>
+                    <td>Monday 8am-10am</td>
+                </tr>
+                <tr>
+                    <td>Intro to Guardian</td>
+                    <td>Warlock 101</td>
+                    <td>Zach Morris</td>
+                    <td>Monday 10:30am-12:30pm</td>
+                </tr>
+                <tr>
+                    <td>Intro to Guardian</td>
+                    <td>Hunter 101</td>
+                    <td>Zach Morris</td>
+                    <td>Monday 1pm-3pm</td>
+                </tr>
+                <tr>
+                    <td>Weapons</td>
+                    <td>Weapon Archetypes</td>
+                    <td>Jake Fry</td>
+                    <td>Monday 8am-10am</td>
+                </tr>
+                <tr>
+                    <td>Weapons</td>
+                    <td>Archetype Roles</td>
+                    <td>Jake Fry</td>
+                    <td>Monday 10:30am-12:30pm</td>
+                </tr>
+                <tr>
+                    <td>Weapons</td>
+                    <td>Playing Off Meta</td>
+                    <td>Jake Fry</td>
+                    <td>Monday 1pm-3pm</td>
+                </tr>
+                <tr>
+                    <td>Stasis</td>
+                    <td>Intro to Teamwork</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 8am-10am</td>
+                </tr>
+                <tr>
+                    <td>Stasis</td>
+                    <td>Build Synergy</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 10:30am-12:30pm</td>
+                </tr>
+                <tr>
+                    <td>Stasis</td>
+                    <td>Building a Playbook</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 1pm-3pm</td>
+                </tr>
+                <tr>
+                    <td>Shotguns</td>
+                    <td>Intro to Teamwork</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 8am-10am</td>
+                </tr>
+                <tr>
+                    <td>Shotguns</td>
+                    <td>Build Synergy</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 10:30am-12:30pm</td>
+                </tr>
+                <tr>
+                    <td>Shotguns</td>
+                    <td>Building a Playbook</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 1pm-3pm</td>
+                </tr>
+                <tr>
+                    <td>Winning the Game</td>
+                    <td>Intro to Teamwork</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 8am-10am</td>
+                </tr>
+                <tr>
+                    <td>Winning the Game</td>
+                    <td>Build Synergy</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 10:30am-12:30pm</td>
+                </tr>
+                <tr>
+                    <td>Winning the Game</td>
+                    <td>Building a Playbook</td>
+                    <td>Scott Sawyer</td>
+                    <td>Monday 1pm-3pm</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <div id="admin-nav" class="sidenav">
+            <a href="javascript:void(0)" class="close-btn" onclick="closeAdminNav()"> &times;</a>
+            <a href="#Teamplay">Teamplay</a>
+            <a href="#Guardian">Intro to Guardian</a>
+            <a href="#Weapons">Weapons</a>
+            <a href="#Stasis">Stasis</a>
+            <a href="#Shotguns">Shotguns</a>
+            <a href="#Winning">Winning the Game</a>
+        </div>
+    </main>
+    <footer>
+        <div id="admin-btn" class="button" onclick="openAdminNav()">
+            <span class="vertical-text">CLASS LISTS</span>
+        </div>
+
+        <script>
+            function openAdminNav() {
+                document.getElementById("admin-btn").style.display = "none";
+                document.getElementById("admin-nav").style.width = "250px";
+            }
+
+            function closeAdminNav() {
+                document.getElementById("admin-btn").style.display = "block";
+                document.getElementById("admin-nav").style.width = "0";
+            }
+        </script>
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="//cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+        <script>
+            $(function () {
+                $('#simpleTable').DataTable();
+            });
+        </script>
+        <!-- Bootstrap 3.3.7 minified JavaScript -->
+
+
+        <section>
+            &copy; 2021 Ryan Palmer
+            <div class="row">
+                <div class="column">
+                    <a href="https://www.facebook.com/learnwithus" target="_blank"><img src="~/Img/Images/facebook.png" width="40" /></a>
+                </div>
+                <div class="column">
+                    <a href="https://twitter.com/weteachstuff?lang=en" target="_blank"><img src="~/Img/Images/twitter.png" width="40" /></a>
+                </div>
+                <div class="column">
+                    <a href="https://www.linkedin.com/learnwithus" target="_blank"><img src="~/Img/Images/linkedin.png" width="40" /></a>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
