@@ -66,7 +66,9 @@ namespace PersonalSiteMVC.Controllers
             }
 
             // Below code only executes if the form (object) passes model validation
-            string returnMessage = $"You have received an email from {cvm.Name} with a subject " +                $"{cvm.Subject}.  Please respond to {cvm.Email} with your response to " +                $"the following message: <br />{cvm.Message}";
+            string returnMessage = $"You have received an email from {cvm.Name} with a subject " +
+                $"{cvm.Subject}.  Please respond to {cvm.Email} with your response to " +
+                $"the following message: <br />{cvm.Message}";
 
             Boolean isMailSetUp = true;
 
@@ -112,7 +114,8 @@ namespace PersonalSiteMVC.Controllers
                 catch (Exception ex)
                 {
                     ViewBag.CustomerMessage = $"We're sorry your request could not be " +
-                        $"completed at this time." +                        $"  Please try again later.  Error Message: <br /> {ex.StackTrace}";
+                        $"completed at this time." +
+                        $"  Please try again later.  Error Message: <br /> {ex.StackTrace}";
                     return View(cvm); //  Return the view with the entire message so that 
                                       //  users can copy/paste it for later
 

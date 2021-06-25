@@ -186,9 +186,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="configs\AppSecretKeys.config">
-      <SubType>Designer</SubType>
-    </None>
+    <None Include="configs\Phrases.config" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
