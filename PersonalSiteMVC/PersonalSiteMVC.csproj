@@ -290,6 +290,7 @@
     <Content Include="_Archive\Template\links.html" />
     <Content Include="_Archive\Template\post.html" />
     <Content Include="_Archive\Template\Resume_RPalmer_FullStackDev.html" />
+    <Content Include="Content\Resume_R Palmer_FullStack Dev.pdf" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
