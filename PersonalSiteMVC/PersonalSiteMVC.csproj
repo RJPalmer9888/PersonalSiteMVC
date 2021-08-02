@@ -205,6 +205,8 @@
     <Content Include="img\ClassMates\WIN_20210602_19_04_18_Pro %282%29.jpg" />
     <Content Include="img\coming-soon-construction-yellow-background-design_1017-25509.jpg" />
     <Content Include="img\contact-bg.jpg" />
+    <Content Include="img\Destiny-2-Beyond-Light-Drifter.jpg" />
+    <Content Include="img\destiny-2s-june-9-season-reveal-shows-the-drifter-is-up-to-more-tomfoolery_feature.jpg" />
     <Content Include="img\DSC_0039_01.jpg" />
     <Content Include="img\Facebook Post 940x788 px.png" />
     <Content Include="img\ClassMates\headshot-placeholder.jpg" />
@@ -232,6 +234,7 @@
     <Content Include="img\post-bg.jpg" />
     <Content Include="img\post-sample-image.jpg" />
     <Content Include="img\Profile.png" />
+    <Content Include="img\ProfileSlim.png" />
     <Content Include="img\teamplay.jpg" />
     <Content Include="img\Zc5LnOoHtCn9c4u-le2Hpdbxmn4pQhs7z24G6rrBa9I.png" />
     <Content Include="Scripts\bootstrap.js" />
