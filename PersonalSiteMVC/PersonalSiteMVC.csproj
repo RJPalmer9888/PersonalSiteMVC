@@ -164,24 +164,14 @@
   <ItemGroup>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
-    <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ManageController.cs" />
-    <Compile Include="Controllers\RolesAdminController.cs" />
     <Compile Include="Controllers\StudioController.cs" />
-    <Compile Include="Controllers\UserAdminController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AdminViewModel.cs" />
     <Compile Include="Models\ContactViewModel.cs" />
-    <Compile Include="Models\FamilyMemberViewModel.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
-    <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -192,6 +182,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\custom.css" />
+    <Content Include="Content\jquery-ui.structure.min.css" />
+    <Content Include="Content\jquery-ui.theme.min.css" />
     <Content Include="Content\styles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -199,7 +191,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="img\2956131.png" />
     <Content Include="img\about-bg.jpg" />
+    <Content Include="img\ClassMates\1624906396441.jfif" />
     <Content Include="img\ClassMates\headshot.jpg" />
+    <Content Include="img\ClassMates\IMG_4704.jpg" />
+    <Content Include="img\ClassMates\jae.jpg" />
     <Content Include="img\ClassMates\Jake.jpg" />
     <Content Include="img\ClassMates\Profile_Picture.png" />
     <Content Include="img\ClassMates\WIN_20210602_19_04_18_Pro %282%29.jpg" />
@@ -226,6 +221,12 @@
     <Content Include="img\Images\stasis.jpg" />
     <Content Include="img\Images\teamplay.jpg" />
     <Content Include="img\Images\twitter.png" />
+    <Content Include="img\Images\ui-icons_444444_256x240.png" />
+    <Content Include="img\Images\ui-icons_555555_256x240.png" />
+    <Content Include="img\Images\ui-icons_777620_256x240.png" />
+    <Content Include="img\Images\ui-icons_777777_256x240.png" />
+    <Content Include="img\Images\ui-icons_cc0000_256x240.png" />
+    <Content Include="img\Images\ui-icons_ffffff_256x240.png" />
     <Content Include="img\Images\victory.jpg" />
     <Content Include="img\Images\waveydead.jpg" />
     <Content Include="img\LifeRPG_Avatar %281%29.png" />
@@ -239,9 +240,29 @@
     <Content Include="img\Zc5LnOoHtCn9c4u-le2Hpdbxmn4pQhs7z24G6rrBa9I.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Content\jquery-ui.min.css" />
+    <Content Include="Scripts\jquery-ui.min.js" />
     <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\scripts.js" />
     <Content Include="Scripts\validation.js" />
+    <Content Include="_Archive\JqueryUI\AUTHORS.txt" />
+    <Content Include="_Archive\JqueryUI\external\jquery\jquery.js" />
+    <Content Include="_Archive\JqueryUI\images\ui-icons_444444_256x240.png" />
+    <Content Include="_Archive\JqueryUI\images\ui-icons_555555_256x240.png" />
+    <Content Include="_Archive\JqueryUI\images\ui-icons_777620_256x240.png" />
+    <Content Include="_Archive\JqueryUI\images\ui-icons_777777_256x240.png" />
+    <Content Include="_Archive\JqueryUI\images\ui-icons_cc0000_256x240.png" />
+    <Content Include="_Archive\JqueryUI\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="_Archive\JqueryUI\index.html" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.css" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.js" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.min.css" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.min.js" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.structure.css" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.structure.min.css" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.theme.css" />
+    <Content Include="_Archive\JqueryUI\jquery-ui.theme.min.css" />
+    <Content Include="_Archive\JqueryUI\LICENSE.txt" />
     <Content Include="_Archive\Studio\Classes.html" />
     <Content Include="_Archive\Studio\Contact.html" />
     <Content Include="_Archive\Studio\CSS\custom.css" />
@@ -321,37 +342,8 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\TempContact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\UsersAdmin\Index.cshtml" />
-    <Content Include="Views\UsersAdmin\Edit.cshtml" />
-    <Content Include="Views\UsersAdmin\Details.cshtml" />
-    <Content Include="Views\UsersAdmin\Delete.cshtml" />
-    <Content Include="Views\UsersAdmin\Create.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
-    <Content Include="Views\RolesAdmin\Index.cshtml" />
-    <Content Include="Views\RolesAdmin\Edit.cshtml" />
-    <Content Include="Views\RolesAdmin\Details.cshtml" />
-    <Content Include="Views\RolesAdmin\Delete.cshtml" />
-    <Content Include="Views\RolesAdmin\Create.cshtml" />
-    <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
-    <Content Include="Views\Manage\SetPassword.cshtml" />
-    <Content Include="Views\Manage\ManageLogins.cshtml" />
-    <Content Include="Views\Manage\Index.cshtml" />
-    <Content Include="Views\Manage\ChangePassword.cshtml" />
-    <Content Include="Views\Manage\AddPhoneNumber.cshtml" />
-    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
-    <Content Include="Views\Account\VerifyCode.cshtml" />
-    <Content Include="Views\Account\SendCode.cshtml" />
-    <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\ResetPassword.cshtml" />
-    <Content Include="Views\Account\Register.cshtml" />
-    <Content Include="Views\Account\Login.cshtml" />
-    <Content Include="Views\Account\ForgotPasswordConfirmation.cshtml" />
-    <Content Include="Views\Account\ForgotPassword.cshtml" />
-    <Content Include="Views\Account\ExternalLoginFailure.cshtml" />
-    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
-    <Content Include="Views\Account\DisplayEmail.cshtml" />
-    <Content Include="Views\Account\ConfirmEmail.cshtml" />
     <Content Include="Views\Shared\_LayoutOriginal.cshtml" />
     <Content Include="Views\Home\Post.cshtml" />
     <Content Include="Views\Home\Links.cshtml" />
@@ -361,6 +353,7 @@
     <Content Include="Views\Studio\Classes.cshtml" />
     <Content Include="Views\Studio\Team.cshtml" />
     <Content Include="Views\Studio\Contact.cshtml" />
+    <Content Include="_Archive\JqueryUI\package.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
